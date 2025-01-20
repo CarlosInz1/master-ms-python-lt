@@ -4,7 +4,7 @@ from typing import Any
 from structlog import get_logger, configure, processors, stdlib
 
 
-SERVICE_NAME = os.environ.get("SERVICE_NAME", "fastapi-service")
+SERVICE_NAME = os.environ.get("SERVICE_NAME", "fastapi-services")
 STAGE = os.environ.get("STAGE", "local")
 
 

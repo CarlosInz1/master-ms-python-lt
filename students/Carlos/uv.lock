@@ -49,14 +49,10 @@ version = "0.1.0"
 source = { virtual = "students/Carlos" }
 dependencies = [
     { name = "fastapi" },
-    { name = "uvicorn" },
 ]
 
 [package.metadata]
-requires-dist = [
-    { name = "fastapi", specifier = ">=0.115.6" },
-    { name = "uvicorn", specifier = ">=0.34.0" },
-]
+requires-dist = [{ name = "fastapi", specifier = ">=0.115.6" }]
 
 [[package]]
 name = "class"

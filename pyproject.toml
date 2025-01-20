@@ -14,3 +14,6 @@ dependencies = [
     "structlog>=24.4.0",
     "uvicorn>=0.34.0",
 ]
+
+[tool.uv.workspace]
+members = ["students/Carlos"]
