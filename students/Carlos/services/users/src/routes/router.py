@@ -25,7 +25,7 @@ def update_user_route (id: int):
     }
 @router.get("/{id}")
 def get_user_route (id: int):
-    # informacion usuario
+    # informacion usuario wewe
     return {
         "id" : id
     }
